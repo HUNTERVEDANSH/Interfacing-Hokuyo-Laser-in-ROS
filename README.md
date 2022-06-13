@@ -13,19 +13,19 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
    sudo chmod a+rw /dev/ttyACM0
 ```
 ## Read data from Hokuyo Node
-1. Start ROS first
+1. Start ROS first using [roscore](http://wiki.ros.org/roscore) command 
 ```
    roscore
 ```
-2. Run the rosrun command to let node stream data 
+2. Run the [rosrun](http://wiki.ros.org/rosbash#rosrun) command to let node stream data 
 ```
    rosrun urg_node urg_node
 ```
-3. Try using the following command to set the default port for the node if port is not set
+3. Try using the [rosparam](http://wiki.ros.org/rosparam) command to set the default port for the node if port is not set
 ```
    rosparam set urg_node/port /dev/ttyACM0
 ```
-4. To check that node is publishing to **/scan** first use list command to view all active topic and chech the /scan
+4. To check that node is publishing to **/scan** first use [rostopic](http://wiki.ros.org/rostopic#:~:text=rostopic%20contains%20the%20rostopic%20command,and%20interacting%20with%20topics%20dynamically.) command to view all active topic and chech the /scan
 ```
    rostopic list
 ```
