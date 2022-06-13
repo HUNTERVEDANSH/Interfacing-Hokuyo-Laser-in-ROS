@@ -21,5 +21,9 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
    rosrun urg_node urg_node
 ```
-**You should see the messages: “Connected to device” and shortly afterwards “Streaming data”. If you do not see these messages, check that the Hokuyo is being detected by your cpu by entering**
+**You should see the messages: “Connected to device” and shortly afterwards “Streaming data”.**
+3. Try using the following command to set the default port for the node
+```
+   rosparam set hokuyo_node/port /dev/ttyACM0
+```
 
