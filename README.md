@@ -23,6 +23,6 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
 3. Try using the following command to set the default port for the node if port is not set
 ```
-   rosparam set hokuyo_node/port /dev/ttyACM0
+   rosparam set urg_node/port /dev/ttyACM0
 ```
 
