@@ -3,14 +3,14 @@ This repository contains steps to interface Hokuyo [UTM-30LX](https://hokuyo-usa
 ## Prerequisite
 Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org/noetic/Installation/Ubuntu)
 ## Working with Hokuyo Node
-Plug in your Hokuyo UTM-30LX to the USB port.<br />
-### Commands to be followed
+**Plug in your Hokuyo UTM-30LX to the USB port**<br />
 1. Check the permission of the node connected<br />
 ```
    ls -l /dev/ttyACM0
 ```
 2. Change permissiom to read and write to all users
 ```
-sudo chmod a+rw /dev/ttyACM0
+   sudo chmod a+rw /dev/ttyACM0
 ```
+## Read data from Hokuyo Node
 
