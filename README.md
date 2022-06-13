@@ -34,7 +34,8 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
    rostopic echo /scan
 ```
 ## Visulizing Data 
-1. **LRF(Hokuyu UTM-30LX) data can be visualized using [RViz](http://wiki.ros.org/rviz) with /scan topic**<br />
+1. LRF(Hokuyu UTM-30LX) data can be visualized using [RViz](http://wiki.ros.org/rviz) 
 ```
    rosrun rviz rviz
 ```
+Click add, then select the topic /scan. If you have an error related to tf, you need to manually enter your fixed frame as “/laser” in the textbox next to fixed frame on the left side of the GUI.
