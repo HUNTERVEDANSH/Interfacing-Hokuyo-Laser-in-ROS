@@ -25,4 +25,11 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
    rosparam set urg_node/port /dev/ttyACM0
 ```
-
+4. To check that node is publishing to **/scan** first use list command to view all active topic and chech the /scan
+```
+   rostopic list
+```
+5. Now check the messages being published to **/scan**
+```
+   rostopic echo /scan
+```
