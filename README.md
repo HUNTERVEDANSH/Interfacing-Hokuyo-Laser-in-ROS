@@ -38,6 +38,6 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
    rosrun rviz rviz
 ```
-RViz window looks like [this](https://ardupilot.org/dev/docs/ros-rviz.html). 
-Click add, then select the topic /scan. If you have an error related to tf, you need to manually enter your fixed frame as “/laser” in the textbox next to fixed frame on the left side of the GUI.
+- RViz window looks like [this](https://ardupilot.org/dev/docs/ros-rviz.html). 
+- Click add, then select the topic /scan. If you have an error related to tf, you need to manually enter your fixed frame as “/laser” in the textbox next to fixed frame on the left side of the GUI.
 
