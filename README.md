@@ -13,4 +13,13 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
    sudo chmod a+rw /dev/ttyACM0
 ```
 ## Read data from Hokuyo Node
+1. Start ROS first
+```
+   roscore
+```
+2. Run the rosrun command to let node stream data 
+```
+   rosrun urg_node urg_node
+```
+**You should see the messages: “Connected to device” and shortly afterwards “Streaming data”. If you do not see these messages, check that the Hokuyo is being detected by your cpu by entering**
 
