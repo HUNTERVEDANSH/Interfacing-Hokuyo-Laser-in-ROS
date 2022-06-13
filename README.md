@@ -39,4 +39,4 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
    rosrun rviz rviz
 ```
 *Click add, then select the topic /scan. If you have an error related to tf, you need to manually enter your fixed frame as “/laser” in the textbox next to fixed frame on the left side of the GUI.*
-![RViz Image](https://www.daslhub.org/unlv/wiki/lib/exe/detail.php?id=using_ros_to_read_data_from_a_hokuyo_scanning_laser_rangefinder&media=screenshot_from_2016-09-13_17_07_57.png)
+
