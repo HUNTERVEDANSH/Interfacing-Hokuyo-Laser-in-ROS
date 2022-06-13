@@ -6,6 +6,7 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 Plug in your Hokuyo UTM-30LX to the USB port.<br />
 ### Steps to be followed
 1. Check the permission of the node connected with the command.<br />
+'''
    ls -l /dev/ttyACM0<br />
-   
+'''
 
