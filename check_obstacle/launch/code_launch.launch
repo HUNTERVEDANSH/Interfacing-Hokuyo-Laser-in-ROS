@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="check_obstacle" type="code10.py" name="check_obstacle" output="screen">
+	</node>
+</launch>
+
