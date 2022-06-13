@@ -33,8 +33,8 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
    rostopic echo /scan
 ```
-## Visulising Data 
-**LRF(Hokuyu UTM-30LX) data can be visulised using [RViz](http://wiki.ros.org/rviz) with /scan topic**<br />
+## Visulizing Data 
+**LRF(Hokuyu UTM-30LX) data can be visualized using [RViz](http://wiki.ros.org/rviz) with /scan topic**<br />
 ```
    rosrun rviz rviz
 ```
