@@ -1,5 +1,5 @@
 # Interfacing-Hokuyo-Laser-in-ROS
 This repository contains steps to interface Hokuyo UTM-30LX with ROS Noetic.
-##Prerequisite
+## Prerequisite
 Install ROS Noetic.
-You can find steps to install ROS Noetic on Ubuntu here
+You can find steps to install ROS Noetic on Ubuntu here.
