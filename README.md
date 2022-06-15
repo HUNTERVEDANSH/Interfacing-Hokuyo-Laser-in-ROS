@@ -2,7 +2,11 @@
 This repository contains steps to interface Hokuyo [UTM-30LX](https://hokuyo-usa.com/products/lidar-obstacle-detection/utm-30lx) with ROS Noetic.
 ## Prerequisite
 Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org/noetic/Installation/Ubuntu)
-## Working with Hokuyo Node
+## Working with Urg Node
+**Install the [urg_node](http://wiki.ros.org/urg_node) of UTM-30LX using command**
+```
+   sudo apt-get install ros-noetic-urg-node
+```
 **Plug in your Hokuyo UTM-30LX to the USB port**<br />
 1. Check the permission of the node connected<br />
 ```
@@ -12,7 +16,7 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ```
    sudo chmod a+rw /dev/ttyACM0
 ```
-## Read data from Hokuyo Node
+## Read data from Urg Node
 1. Start ROS first using [roscore](http://wiki.ros.org/roscore) command 
 ```
    roscore
