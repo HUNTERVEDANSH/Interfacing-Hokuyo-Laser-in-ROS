@@ -46,3 +46,4 @@ Install and configure ROS Noetic on Ubuntu 20.04 from [here](http://wiki.ros.org
 ![](https://github.com/HUNTERVEDANSH/Interfacing-Hokuyo-Laser-in-ROS/blob/main/check_obstacle/ros-rviz.png)
 - Click add, then select the topic /scan. If you have an error related to tf, you need to manually enter your fixed frame as “/laser” in the textbox next to fixed frame on the left side of the GUI.
 
+- **Note: driver.h, .bag, .txt files are uploaded for more info about the LaserScan data.**
